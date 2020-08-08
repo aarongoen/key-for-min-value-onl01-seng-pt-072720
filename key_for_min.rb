@@ -34,7 +34,7 @@ def key_for_min_value(name_hash)
     placeholder = age[i]
     i += 1 
   else
-   name_hash[age[i]]
+   puts "name_hash[age[i]]"
   end
   end
 end 
