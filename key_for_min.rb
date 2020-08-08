@@ -25,12 +25,17 @@
 #   else
 #     nil 
 # end 
+require "pry"
 
 def key_for_min_value(name_hash)
   placeholder = 1000000
+  result = " "
+  
   name_hash.each do |name, age|
   if age < placeholder
     placeholder = age
+    binding.pry 
+  
   else
    puts "name_hash[placeholder]"
   end
