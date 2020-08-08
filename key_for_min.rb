@@ -33,4 +33,6 @@ def key_for_min_value(name_hash)
     lowest_so_far = age[i]
   else
     nil 
+  end
+end 
 end 
