@@ -33,6 +33,5 @@ def key_for_min_value(name_hash)
     i = age[i]
   else
     i += 1 
-     
   end
 end 
