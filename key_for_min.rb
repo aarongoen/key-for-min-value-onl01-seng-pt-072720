@@ -21,8 +21,16 @@ def key_for_min_value(name_hash)
   placeholder = lowest so far  
   name_hash.each {|value|
   if current value < next value
-    lowest value = current value 
-  elsif next value < current value
-    lowest value to next value 
-  
+    lowest value so far = current value 
+  else
+    nil 
+end 
+
+def key_for_min_value(name_hash)
+  placeholder = lowest so far  
+  name_hash.each {|value|
+  if current value < next value
+    lowest value so far = current value 
+  else
+    nil 
 end 
