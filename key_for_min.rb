@@ -34,8 +34,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |name, age|
   if age < placeholder
     placeholder = age
-    binding.pry 
-  
+    result = name 
   else
    puts "name_hash[placeholder]"
   end
