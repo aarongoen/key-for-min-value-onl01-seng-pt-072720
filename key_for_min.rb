@@ -30,7 +30,7 @@ def key_for_min_value(name_hash)
   i += 0 
   name_hash.each do |age|
   if age[i] < age[i+1]
-    lowest_so_far = age[i]
+    i = age[i]
   else
     nil 
   end
