@@ -35,9 +35,8 @@ def key_for_min_value(name_hash)
   if age < placeholder
     placeholder = age
     result = name 
-  else
-  result  
   end
+  result 
   end
 end 
  
