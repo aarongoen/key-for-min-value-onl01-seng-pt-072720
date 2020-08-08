@@ -28,7 +28,7 @@
 
 def key_for_min_value(name_hash)
   i = 0 
-  name_hash.each do |age|
+  name_hash.each do |name, age|
   if age[i] < age[i+1]
     i = age[i]
   else
