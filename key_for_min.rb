@@ -36,7 +36,7 @@ def key_for_min_value(name_hash)
     placeholder = age
     result = name 
   end
-  result 
   end
+  result
 end 
  
